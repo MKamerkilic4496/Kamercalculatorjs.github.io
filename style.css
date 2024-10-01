@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    background-color: purple;
+}
+/* Hesap Makinesi */
+table{
+    background-color: #6C4AB6;
+    border: 2px solid black;
+    border-spacing:10px;
+    margin:auto;
+    margin-top:50px;
+    text-align: center;
+}
+table .btn{
+    width:80px;
+    background-color:#b16417;
+    color:#00fff0;
+    line-height: 300%;
+    font-size: 150%;
+    border-radius: 25px;
+}
+table .btn:hover{
+    background-color:rgb(164,163,163);
+    color:white;
+}
+
+#islem,#gosterge{
+    padding: 15px;
+    text-align: right;
+    background-color:rgb(164,163,163) ;
+    border-radius: 20px;
+}
+#islem{
+    font-size: 200%;
+}
